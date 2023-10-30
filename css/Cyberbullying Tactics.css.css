@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    color: #243B53;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:row-wrap;
+    padding-left:48px;
+    padding-right:48px ;
+    padding-top: 15px;
+    padding-bottom:15px ;
+}
+.red-font{
+    color: #C1041B;  
+}
+
+.header-links a{
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sec-1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    width: 93%;
+    grid-gap:30px;
+    align-items: center;
+    padding-bottom: 24px;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.sec1-title{
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+}
+.sec1-title h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+.sec1-title p{
+font-size: 22px;
+font-weight: 500;
+padding-top: 16px;
+}
+.sec-2{
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.sec-2-tittel{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+.sec-2-subtitlle h2{
+    font-size: 32px;
+    font-weight: bold; 
+}
+.sec-2 p{
+    font-size: 32px;
+    padding-bottom: 24px;
+}
+
+.footer{
+    background-color: #243B53;
+    padding: 20px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+.footer img{
+    display:block;
+    margin: auto;
+    padding: 8px;
+}

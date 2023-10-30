@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    color: #243B53;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:row-wrap;
+    padding-left:48px;
+    padding-right:48px ;
+    padding-top: 15px;
+    padding-bottom:15px ;
+}
+.red-font{
+    color: #C1041B;  
+}
+.header-links a{
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* .sec-1-text, .sec-1-imag{
+    height: 100vh;
+    width: 100%;
+}
+.sec-1-text{
+    background:white;
+}
+.sec-1-imag{
+    background:white;
+} */
+.sec1{
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    width: 93%;
+    grid-gap:30px;
+    align-items: center;
+    padding-bottom: 24px;
+
+}
+.sec1 span{
+    font-size: 48px;
+    font-weight: bold;
+}
+.sec1 p {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.sec1 h3{
+    font-size: 32px; 
+    font-weight: bold;
+} 
+
+.sec-2{
+    background-color:rgba(193, 4, 26, 0.08); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 48px;
+    padding-left: 48px;
+
+}
+.part-1 {
+font-size: 42px;
+font-weight: bold;
+text-align: center;
+}
+
+.part-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    width: 100%;
+}
+.figures{
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 22px;
+}
+.sec-3{
+    background-image: url(../imag/home-sec2.png);
+    background-size:cover;
+    height: 856px;
+}
+.conten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: auto;
+    width: 93%;
+    grid-gap:30px;
+
+}
+.sec3-text2{
+    text-align: right;
+}
+.sec3-header{
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 24px;
+    padding-bottom: 15px;
+}
+.sec-3 h3{
+    font-size: 24;
+    font-weight: 570;
+}
+.sec-4{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    display:block;
+    margin: auto; 
+    padding: 24px;
+}
+.sec-4-title {
+    padding: 26px;
+}
+
+.footer{
+    background-color: #243B53;
+    padding: 20px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+.footer img{
+    display:block;
+    margin: auto;
+    padding: 8px;
+}

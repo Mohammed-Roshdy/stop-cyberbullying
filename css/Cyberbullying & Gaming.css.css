@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    color: #243B53;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:row-wrap;
+    padding-left:48px;
+    padding-right:48px ;
+    padding-top: 15px;
+    padding-bottom:15px ;
+}
+.red-font{
+    color: #C1041B;  
+}
+.header-links a{
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sec1{
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    width: 93%;
+    grid-gap:30px;
+    align-items: center;
+    padding-bottom: 24px;
+
+}
+.sec1 span{
+    font-size: 48px;
+    font-weight: bold;
+}
+.sec1 p {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.sec-2{
+    padding-top: 24px;
+    padding-bottom: 36px;
+    background-image: url(../imag/cyberbullying\ &\ gaming-sec2-image.png);
+    background-size:cover;
+}
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-right: 68px;
+    padding-left: 68px;
+}
+.sec-2-subtitlle{
+    font-size: 30px;
+    font-weight: 500;
+    /* padding-bottom: 25px; */
+    padding-right: 68px;
+    padding-left: 68px;
+}
+.sec-2-point{
+    padding-right: 68px;
+    padding-left: 68px;
+}
+.numbers{
+    font-size: 55px;
+    font-weight: bold;
+}
+.point{
+    font-size: 22px;
+    font-weight: 500; 
+}
+.footer{
+    background-color: #243B53;
+    padding: 20px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+.footer img{
+    display:block;
+    margin: auto;
+    padding: 8px;
+}
